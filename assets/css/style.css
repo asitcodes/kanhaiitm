@@ -1394,8 +1394,11 @@ html, body {width: auto!important; overflow-x: hidden!important}
   left: 50%;
   top: 50%;
   border-radius: 8px;
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  overflow: auto;
 }
 .popup button{
   display: block;
@@ -1413,5 +1416,17 @@ html, body {width: auto!important; overflow-x: hidden!important}
   margin: 20px 0;
   line-height: 25px;
 }
+.popup a.btn {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+@media (max-width: 600px) {
+  .popup {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+}
 
