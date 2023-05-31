@@ -1430,3 +1430,13 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
 }
 
+/* temporary css picture class for index 6 feats */
+
+.picture {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 40px;
+  margin-bottom: 50px;
+}
