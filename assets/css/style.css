@@ -1379,3 +1379,24 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
 }
 
+/* temporary trial for typing effect */
+
+.typed-out{
+  overflow: hidden;
+  border-right: .05em solid #c5c5c5;
+  white-space: nowrap;
+  animation: 
+          typing 1.5s steps(20, end) forwards,
+          blinking 1s infinite ;
+  font-size: 6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%; }
+}
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: #c5c5c5; }
+}
+
