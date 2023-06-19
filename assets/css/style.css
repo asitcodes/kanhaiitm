@@ -1400,3 +1400,29 @@ html, body {width: auto!important; overflow-x: hidden!important}
   to { border-color: #c5c5c5; }
 }
 
+/* media queries for type effect */
+
+@media (max-width: 1200px) {
+  .typed-out {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .typed-out {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .typed-out {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .typed-out {
+    font-size: 2rem;
+  }
+}
+
