@@ -1,6 +1,5 @@
 'use strict';
 
-
 /**
  * add event on multiple elements
  */
@@ -129,4 +128,3 @@ addEventOnElements(hoverElements, "mouseout", function () {
 document.addEventListener("contextmenu", (event) => {
   event.preventDefault();
 });
-
